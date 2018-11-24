@@ -1,0 +1,11 @@
+apiVersion: medusa-operator/v1
+kind: CustomResourceDefinition
+metadata:
+  name: medusa-operator.config.crd/v1
+spec:
+  group: medusa-operator.group.crd/v1
+  version: v1
+  names:
+    kind: MedusaConfig
+    plural: MedusaConfigs
+  scope: Namespaced

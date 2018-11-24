@@ -1,0 +1,8 @@
+apiVersion: medusa-operator/v1
+kind: MedusaConfig
+metadata:
+  generateName: MedusaConfig-
+data:
+  interval: 60
+  log_level: INFO
+  workdir: /tmp/medusa

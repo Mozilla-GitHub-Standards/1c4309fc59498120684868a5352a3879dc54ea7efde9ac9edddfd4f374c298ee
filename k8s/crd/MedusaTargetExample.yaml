@@ -1,0 +1,9 @@
+apiVersion: medusa-operator/v1
+kind: MedusaTarget
+metadata:
+  generateName: MedusaTarget-
+data:
+  repo_url: https://github.com/mozilla-it/medusa-target
+  repo_rev: master
+  repo_path: k8s/deploy/*
+
